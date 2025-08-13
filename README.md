@@ -19,12 +19,16 @@ Key Highlights:
    git clone https://github.com/Amogh6315/Employee-Directory.git
    cd Employee-Directory
 2. **Install Dependencies**
+    ```bash
    npm install
 3. **Run the Development Server**
+   ```bash
    npm run dev
 4. **Build for Production**
+   ```bash
    npm run build
 5. **Preview the Production Build**
+   ```bash
    npm run preview
 
 
