@@ -40,10 +40,6 @@ export default function Home() {
     setFilteredEmployees(filtered);
   }, [employees, searchQuery, selectedDepartment]);
 
-  const toggleDarkMode = () => {
-    document.documentElement.classList.toggle("dark");
-  };
-
   const getEmployeeById = (id) => employees.find((emp) => emp.id === id);
 
   const getManagerChain = (employee) => {
@@ -117,7 +113,7 @@ export default function Home() {
       {/* Main Content */}
       <div className="flex-1 flex flex-col md:flex-row">
         <div className="flex-1">
-          <Header onSearch={setSearchQuery} toggleDarkMode={toggleDarkMode} />
+          <Header onSearch={setSearchQuery} />
           <EmployeeGrid
             employees={filteredEmployees}
             onViewHierarchy={handleViewHierarchy}

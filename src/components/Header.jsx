@@ -1,49 +1,46 @@
 import { useState } from "react";
-import { IoMdClose } from "react-icons/io";
+import ThemeToggle from "./ThemeToggle";
 
-export default function Header({ onSearch, toggleDarkMode }) {
-  const [searchValue, setSearchValue] = useState("");
-
-  const handleSearchChange = (value) => {
-    setSearchValue(value);
-    onSearch(value);
-  };
+export default function Header({ onSearch }) {
+  const [q, setQ] = useState("");
 
   const clearSearch = () => {
-    setSearchValue("");
-    onSearch("");
+    setQ("");
+    onSearch?.("");
   };
 
   return (
-    <header className="bg-white dark:bg-gray-800 shadow mx-4 mt-4 px-6 py-4 rounded-md flex items-center justify-between">
-      {/* Search bar */}
+    <header className="sticky top-0 z-30 bg-white/70 dark:bg-gray-800/70 backdrop-blur shadow mx-4 mt-4 px-6 py-4 rounded-md flex items-center justify-between">
+      {/* left spacer to align with grid if you want, or put brand here */}
+      <div className="w-16" />
+
+      {/* Search bar (centered) */}
       <div className="flex-1 flex justify-center">
         <div className="relative w-full max-w-md">
           <input
             type="text"
             placeholder="Search employees..."
-            value={searchValue}
-            onChange={(e) => handleSearchChange(e.target.value)}
-            className="w-full px-4 py-2 pr-8 rounded-md border border-gray-300 dark:border-gray-600 bg-gray-50 dark:bg-gray-700 text-black dark:text-white focus:outline-none focus:ring-2 focus:ring-blue-500"
+            value={q}
+            onChange={(e) => {
+              setQ(e.target.value);
+              onSearch?.(e.target.value);
+            }}
+            className="w-full pl-4 pr-10 py-2 rounded-md border border-gray-300 dark:border-gray-600 bg-gray-50 dark:bg-gray-700 text-black dark:text-white focus:outline-none focus:ring-2 focus:ring-blue-500"
           />
-          {searchValue && (
+          {q && (
             <button
               onClick={clearSearch}
-              className="absolute right-2 top-1/2 -translate-y-1/2 text-gray-500 hover:text-gray-700 dark:hover:text-gray-300"
+              aria-label="Clear search"
+              className="absolute right-2 top-1/2 -translate-y-1/2 cursor-pointer bg-gray-200 dark:bg-gray-600 text-gray-700 dark:text-gray-200 rounded px-1"
             >
-              <IoMdClose size={18} />
+              ×
             </button>
           )}
         </div>
       </div>
 
-      {/* Dark mode button */}
-      {/* <button
-        onClick={toggleDarkMode}
-        className="ml-4 px-3 py-2 bg-gray-200 dark:bg-gray-600 rounded hover:bg-gray-300 dark:hover:bg-gray-500"
-      >
-        🌙
-      </button> */}
+      {/* Theme toggle (right) */}
+      <ThemeToggle />
     </header>
   );
 }
