@@ -1,0 +1,445 @@
+[
+  {
+    "id": 100,
+    "name": "Alice Morgan",
+    "title": "CEO & Co-Founder",
+    "department": "Leadership",
+    "photo": "https://randomuser.me/api/portraits/women/90.jpg",
+    "managerId": null
+  },
+  {
+    "id": 101,
+    "name": "Brian Carter",
+    "title": "CTO & Co-Founder",
+    "department": "Engineering",
+    "photo": "https://randomuser.me/api/portraits/men/91.jpg",
+    "managerId": 100
+  },
+  {
+    "id": 102,
+    "name": "Sophia Turner",
+    "title": "CFO & Co-Founder",
+    "department": "Finance",
+    "photo": "https://randomuser.me/api/portraits/women/92.jpg",
+    "managerId": 100
+  },
+  {
+    "id": 103,
+    "name": "Michael Evans",
+    "title": "COO",
+    "department": "Operations",
+    "photo": "https://randomuser.me/api/portraits/men/93.jpg",
+    "managerId": 100
+  },
+  {
+    "id": 104,
+    "name": "Chloe Bennett",
+    "title": "CMO",
+    "department": "Marketing",
+    "photo": "https://randomuser.me/api/portraits/women/94.jpg",
+    "managerId": 100
+  },
+  {
+    "id": 105,
+    "name": "David Foster",
+    "title": "CHRO",
+    "department": "HR",
+    "photo": "https://randomuser.me/api/portraits/men/95.jpg",
+    "managerId": 100
+  },
+
+  {
+    "id": 1,
+    "name": "John Doe",
+    "title": "VP of Engineering",
+    "department": "Engineering",
+    "photo": "https://randomuser.me/api/portraits/men/1.jpg",
+    "managerId": 101
+  },
+  {
+    "id": 8,
+    "name": "Mark Taylor",
+    "title": "VP of Design",
+    "department": "Design",
+    "photo": "https://randomuser.me/api/portraits/men/8.jpg",
+    "managerId": 103
+  },
+  {
+    "id": 13,
+    "name": "Robert Lee",
+    "title": "VP of HR",
+    "department": "HR",
+    "photo": "https://randomuser.me/api/portraits/men/13.jpg",
+    "managerId": 105
+  },
+  {
+    "id": 18,
+    "name": "Mia Thompson",
+    "title": "VP of Marketing",
+    "department": "Marketing",
+    "photo": "https://randomuser.me/api/portraits/women/18.jpg",
+    "managerId": 104
+  },
+  {
+    "id": 23,
+    "name": "Lucas Adams",
+    "title": "VP of Sales",
+    "department": "Sales",
+    "photo": "https://randomuser.me/api/portraits/men/23.jpg",
+    "managerId": 103
+  },
+
+  {
+    "id": 2,
+    "name": "Jane Smith",
+    "title": "Engineering Manager",
+    "department": "Engineering",
+    "photo": "https://randomuser.me/api/portraits/women/2.jpg",
+    "managerId": 1
+  },
+  {
+    "id": 3,
+    "name": "Mike Brown",
+    "title": "Frontend Lead",
+    "department": "Engineering",
+    "photo": "https://randomuser.me/api/portraits/men/3.jpg",
+    "managerId": 2
+  },
+  {
+    "id": 4,
+    "name": "David Harris",
+    "title": "Backend Lead",
+    "department": "Engineering",
+    "photo": "https://randomuser.me/api/portraits/men/4.jpg",
+    "managerId": 2
+  },
+  {
+    "id": 5,
+    "name": "Sarah Wilson",
+    "title": "DevOps Lead",
+    "department": "Engineering",
+    "photo": "https://randomuser.me/api/portraits/women/5.jpg",
+    "managerId": 2
+  },
+  {
+    "id": 6,
+    "name": "Tom Clark",
+    "title": "QA Lead",
+    "department": "Engineering",
+    "photo": "https://randomuser.me/api/portraits/men/6.jpg",
+    "managerId": 2
+  },
+  {
+    "id": 7,
+    "name": "Rachel Lee",
+    "title": "Software Engineer",
+    "department": "Engineering",
+    "photo": "https://randomuser.me/api/portraits/women/7.jpg",
+    "managerId": 3
+  },
+
+  {
+    "id": 28,
+    "name": "Ethan Brooks",
+    "title": "Junior Developer",
+    "department": "Engineering",
+    "photo": "https://randomuser.me/api/portraits/men/28.jpg",
+    "managerId": 3
+  },
+  {
+    "id": 29,
+    "name": "Grace Murphy",
+    "title": "Frontend Intern",
+    "department": "Engineering",
+    "photo": "https://randomuser.me/api/portraits/women/29.jpg",
+    "managerId": 3
+  },
+  {
+    "id": 30,
+    "name": "Jack Foster",
+    "title": "Backend Intern",
+    "department": "Engineering",
+    "photo": "https://randomuser.me/api/portraits/men/30.jpg",
+    "managerId": 4
+  },
+  {
+    "id": 31,
+    "name": "Amelia Ross",
+    "title": "DevOps Intern",
+    "department": "Engineering",
+    "photo": "https://randomuser.me/api/portraits/women/31.jpg",
+    "managerId": 5
+  },
+  {
+    "id": 32,
+    "name": "Benjamin Hill",
+    "title": "QA Tester",
+    "department": "Engineering",
+    "photo": "https://randomuser.me/api/portraits/men/32.jpg",
+    "managerId": 6
+  },
+
+  {
+    "id": 48,
+    "name": "Logan Scott",
+    "title": "Design Consultant",
+    "department": "Design",
+    "photo": "https://randomuser.me/api/portraits/men/48.jpg",
+    "managerId": 8
+  },
+  {
+    "id": 9,
+    "name": "Emily Johnson",
+    "title": "UX Researcher",
+    "department": "Design",
+    "photo": "https://randomuser.me/api/portraits/women/9.jpg",
+    "managerId": 8
+  },
+  {
+    "id": 10,
+    "name": "Sophia White",
+    "title": "UI Designer",
+    "department": "Design",
+    "photo": "https://randomuser.me/api/portraits/women/10.jpg",
+    "managerId": 8
+  },
+  {
+    "id": 11,
+    "name": "Chris Evans",
+    "title": "Graphic Designer",
+    "department": "Design",
+    "photo": "https://randomuser.me/api/portraits/men/11.jpg",
+    "managerId": 8
+  },
+  {
+    "id": 12,
+    "name": "Olivia Brown",
+    "title": "Product Designer",
+    "department": "Design",
+    "photo": "https://randomuser.me/api/portraits/women/12.jpg",
+    "managerId": 8
+  },
+
+  {
+    "id": 33,
+    "name": "Samantha Reed",
+    "title": "Graphic Intern",
+    "department": "Design",
+    "photo": "https://randomuser.me/api/portraits/women/33.jpg",
+    "managerId": 11
+  },
+  {
+    "id": 34,
+    "name": "Aaron Bennett",
+    "title": "UX Intern",
+    "department": "Design",
+    "photo": "https://randomuser.me/api/portraits/men/34.jpg",
+    "managerId": 9
+  },
+  {
+    "id": 35,
+    "name": "Zoe Howard",
+    "title": "UI Intern",
+    "department": "Design",
+    "photo": "https://randomuser.me/api/portraits/women/35.jpg",
+    "managerId": 10
+  },
+
+  {
+    "id": 49,
+    "name": "Aria Fisher",
+    "title": "Marketing Consultant",
+    "department": "Marketing",
+    "photo": "https://randomuser.me/api/portraits/women/49.jpg",
+    "managerId": 18
+  },
+  {
+    "id": 19,
+    "name": "James Hall",
+    "title": "Content Strategist",
+    "department": "Marketing",
+    "photo": "https://randomuser.me/api/portraits/men/19.jpg",
+    "managerId": 18
+  },
+  {
+    "id": 20,
+    "name": "Ava King",
+    "title": "SEO Specialist",
+    "department": "Marketing",
+    "photo": "https://randomuser.me/api/portraits/women/20.jpg",
+    "managerId": 18
+  },
+  {
+    "id": 21,
+    "name": "Henry Young",
+    "title": "PPC Specialist",
+    "department": "Marketing",
+    "photo": "https://randomuser.me/api/portraits/men/21.jpg",
+    "managerId": 18
+  },
+  {
+    "id": 22,
+    "name": "Ella Wright",
+    "title": "Social Media Manager",
+    "department": "Marketing",
+    "photo": "https://randomuser.me/api/portraits/women/22.jpg",
+    "managerId": 18
+  },
+
+  {
+    "id": 38,
+    "name": "Samuel Price",
+    "title": "Content Intern",
+    "department": "Marketing",
+    "photo": "https://randomuser.me/api/portraits/men/38.jpg",
+    "managerId": 19
+  },
+  {
+    "id": 39,
+    "name": "Victoria Barnes",
+    "title": "SEO Intern",
+    "department": "Marketing",
+    "photo": "https://randomuser.me/api/portraits/women/39.jpg",
+    "managerId": 20
+  },
+  {
+    "id": 40,
+    "name": "Andrew Cook",
+    "title": "PPC Intern",
+    "department": "Marketing",
+    "photo": "https://randomuser.me/api/portraits/men/40.jpg",
+    "managerId": 21
+  },
+  {
+    "id": 41,
+    "name": "Ella Griffin",
+    "title": "Social Media Intern",
+    "department": "Marketing",
+    "photo": "https://randomuser.me/api/portraits/women/41.jpg",
+    "managerId": 22
+  },
+
+  {
+    "id": 50,
+    "name": "Elijah Bryant",
+    "title": "Sales Consultant",
+    "department": "Sales",
+    "photo": "https://randomuser.me/api/portraits/men/50.jpg",
+    "managerId": 23
+  },
+  {
+    "id": 24,
+    "name": "Isabella Carter",
+    "title": "Sales Executive",
+    "department": "Sales",
+    "photo": "https://randomuser.me/api/portraits/women/24.jpg",
+    "managerId": 23
+  },
+  {
+    "id": 25,
+    "name": "Daniel Perez",
+    "title": "Account Manager",
+    "department": "Sales",
+    "photo": "https://randomuser.me/api/portraits/men/25.jpg",
+    "managerId": 23
+  },
+  {
+    "id": 26,
+    "name": "Chloe Stewart",
+    "title": "Sales Associate",
+    "department": "Sales",
+    "photo": "https://randomuser.me/api/portraits/women/26.jpg",
+    "managerId": 23
+  },
+  {
+    "id": 27,
+    "name": "Matthew Ward",
+    "title": "Sales Representative",
+    "department": "Sales",
+    "photo": "https://randomuser.me/api/portraits/men/27.jpg",
+    "managerId": 23
+  },
+
+  {
+    "id": 42,
+    "name": "Thomas Rivera",
+    "title": "Sales Intern",
+    "department": "Sales",
+    "photo": "https://randomuser.me/api/portraits/men/42.jpg",
+    "managerId": 24
+  },
+  {
+    "id": 43,
+    "name": "Scarlett Long",
+    "title": "Account Assistant",
+    "department": "Sales",
+    "photo": "https://randomuser.me/api/portraits/women/43.jpg",
+    "managerId": 25
+  },
+  {
+    "id": 44,
+    "name": "Adam Cooper",
+    "title": "Sales Support",
+    "department": "Sales",
+    "photo": "https://randomuser.me/api/portraits/men/44.jpg",
+    "managerId": 26
+  },
+  {
+    "id": 45,
+    "name": "Maya Jenkins",
+    "title": "Sales Trainee",
+    "department": "Sales",
+    "photo": "https://randomuser.me/api/portraits/women/45.jpg",
+    "managerId": 27
+  },
+
+  {
+    "id": 14,
+    "name": "Linda Green",
+    "title": "Recruiter",
+    "department": "HR",
+    "photo": "https://randomuser.me/api/portraits/women/14.jpg",
+    "managerId": 13
+  },
+  {
+    "id": 15,
+    "name": "Kevin Martin",
+    "title": "HR Executive",
+    "department": "HR",
+    "photo": "https://randomuser.me/api/portraits/men/15.jpg",
+    "managerId": 13
+  },
+  {
+    "id": 16,
+    "name": "Anna Scott",
+    "title": "HR Coordinator",
+    "department": "HR",
+    "photo": "https://randomuser.me/api/portraits/women/16.jpg",
+    "managerId": 13
+  },
+  {
+    "id": 17,
+    "name": "Peter Parker",
+    "title": "HR Specialist",
+    "department": "HR",
+    "photo": "https://randomuser.me/api/portraits/men/17.jpg",
+    "managerId": 13
+  },
+
+  {
+    "id": 36,
+    "name": "Nathan Bell",
+    "title": "Recruitment Intern",
+    "department": "HR",
+    "photo": "https://randomuser.me/api/portraits/men/36.jpg",
+    "managerId": 14
+  },
+  {
+    "id": 37,
+    "name": "Lily Ward",
+    "title": "HR Trainee",
+    "department": "HR",
+    "photo": "https://randomuser.me/api/portraits/women/37.jpg",
+    "managerId": 15
+  }
+]
