@@ -41,6 +41,7 @@ Below is a small example of the dataset. The full file is located in `src/data/e
 
 ### Live Deployment
 The application is deployed and accessible at:  
-[**Employee Directory - Live Demo**](https://amogh6315.github.io/Employee-Directory) 
-[**Employee Directory - UI Visuals**](https://drive.google.com/file/d/1A0D1QHs8Vs8NPPJZMYhVWErNPsAuGJ6L/view?usp=sharing) 
+[View Live Project](https://amogh6315.github.io/Employee-Directory/)
+[Watch UI Visuals](https://drive.google.com/file/d/1A0D1QHs8Vs8NPPJZMYhVWErNPsAuGJ6L/view?usp=sharing)
+
 
