@@ -4,13 +4,12 @@ import tailwindcss from "@tailwindcss/vite";
 
 // https://vite.dev/config/
 export default defineConfig({
-  darkMode: 'class',
+  darkMode: "class",
   plugins: [tailwindcss(), react()],
-    test: {
+  base: "/Employee-Directory/",
+  test: {
     globals: true,
     environment: "jsdom",
-    setupFiles: "./src/setupTests.js", 
+    setupFiles: "./src/setupTests.js",
   },
 });
-
-
