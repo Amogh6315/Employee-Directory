@@ -37,3 +37,8 @@ Below is a small example of the dataset. The full file is located in `src/data/e
     "managerId": 100
   }
 ]
+
+
+### Live Deployment
+The application is deployed and accessible at:  
+[**Employee Directory - Live Demo**](https://your-deployment-link-here.com) 🚀
