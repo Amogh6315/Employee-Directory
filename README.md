@@ -99,3 +99,12 @@ Uses `class` strategy to toggle themes at the root level (`html` element).
 - Can easily integrate pagination for large datasets.
 - Org chart logic supports deep hierarchies without major code changes.
 - Ready to connect to a backend service for real-time updates.
+
+
+## Running Tests
+
+This project uses [Vitest](https://vitest.dev/) with JSDOM for unit testing.
+
+### To run all tests:
+```bash
+npm run test

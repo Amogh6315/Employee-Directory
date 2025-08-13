@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import Sidebar from "../components/Sidebar";
-import Header from "../components/Header";
+import Header from "../components/Header"
 import EmployeeGrid from "../components/EmployeeGrid";
 import EmployeeCard from "../components/EmployeeCard";
 import employeesData from "../data/employees.json";
