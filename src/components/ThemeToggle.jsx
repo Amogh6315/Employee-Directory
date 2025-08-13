@@ -1,4 +1,3 @@
-// src/components/ThemeToggle.jsx
 import { useEffect, useState } from "react";
 import { FiMoon, FiSun } from "react-icons/fi";
 

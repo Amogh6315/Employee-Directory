@@ -11,10 +11,7 @@ export default function Header({ onSearch }) {
 
   return (
     <header className="sticky top-0 z-30 bg-white/70 dark:bg-gray-800/70 backdrop-blur shadow mx-4 mt-4 px-6 py-4 rounded-md flex items-center justify-between">
-      {/* left spacer to align with grid if you want, or put brand here */}
       <div className="w-16" />
-
-      {/* Search bar (centered) */}
       <div className="flex-1 flex justify-center">
         <div className="relative w-full max-w-md">
           <input
@@ -39,7 +36,6 @@ export default function Header({ onSearch }) {
         </div>
       </div>
 
-      {/* Theme toggle (right) */}
       <ThemeToggle />
     </header>
   );

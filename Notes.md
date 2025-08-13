@@ -41,4 +41,6 @@ Below is a small example of the dataset. The full file is located in `src/data/e
 
 ### Live Deployment
 The application is deployed and accessible at:  
-[**Employee Directory - Live Demo**](https://your-deployment-link-here.com) 🚀
+[**Employee Directory - Live Demo**](https://your-deployment-link-here.com) 
+[**Employee Directory - UI Visuals**](https://drive.google.com/file/d/1A0D1QHs8Vs8NPPJZMYhVWErNPsAuGJ6L/view?usp=sharing) 
+

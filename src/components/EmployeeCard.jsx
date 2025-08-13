@@ -1,4 +1,3 @@
-// src/components/EmployeeCard.jsx
 export default function EmployeeCard({ employee, compact, large, onViewHierarchy, onClick }) {
   const handleClick = () => {
     if (onClick) {
