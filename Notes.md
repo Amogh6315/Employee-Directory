@@ -13,24 +13,27 @@ Below is a small example of the dataset. The full file is located in `src/data/e
 ```json
 [
   {
-    "id": 1,
-    "name": "John Doe",
-    "department": "Engineering",
-    "designation": "CTO",
+    "id": 100,
+    "name": "Alice Morgan",
+    "title": "CEO & Co-Founder",
+    "department": "Leadership",
+    "photo": "https://randomuser.me/api/portraits/women/90.jpg",
     "managerId": null
   },
   {
-    "id": 2,
-    "name": "Jane Smith",
+    "id": 101,
+    "name": "Brian Carter",
+    "title": "CTO & Co-Founder",
     "department": "Engineering",
-    "designation": "Lead Developer",
-    "managerId": 1
+    "photo": "https://randomuser.me/api/portraits/men/91.jpg",
+    "managerId": 100
   },
   {
-    "id": 3,
-    "name": "Emily Johnson",
-    "department": "Design",
-    "designation": "UI/UX Designer",
-    "managerId": 1
+    "id": 102,
+    "name": "Sophia Turner",
+    "title": "CFO & Co-Founder",
+    "department": "Finance",
+    "photo": "https://randomuser.me/api/portraits/women/92.jpg",
+    "managerId": 100
   }
 ]

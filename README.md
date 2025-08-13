@@ -34,8 +34,7 @@ Key Highlights:
 
 ## Folder Structure Explanation
 ### Employee-Directory/
-### │
-### ├── public/                     # Static assets (icons, images, etc.)
+### ├── public/`                     `# Static assets (icons, images, etc.)
 ### ├── src/
 ### │   ├── components/              # Reusable UI components (Sidebar, Header, EmployeeCard, etc.)
 ### │   ├── data/                    # Static employee dataset (employees.json)
@@ -43,7 +42,6 @@ Key Highlights:
 ### │   ├── App.jsx                  # Main application wrapper
 ### │   ├── main.jsx                 # Entry point for the app
 ### │   └── index.css                # TailwindCSS base styles
-### │
 ### ├── package.json
 ### ├── vite.config.js               # Vite + TailwindCSS configuration
 ### ├── README.md                    # Project documentation
