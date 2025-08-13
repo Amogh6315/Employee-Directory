@@ -6,7 +6,7 @@ import tailwindcss from "@tailwindcss/vite";
 export default defineConfig({
   darkMode: "class",
   plugins: [tailwindcss(), react()],
-  base: "/Employee-Directory/",
+  base: '/Employee-Directory/',
   test: {
     globals: true,
     environment: "jsdom",
