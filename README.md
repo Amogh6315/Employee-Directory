@@ -34,19 +34,51 @@ Key Highlights:
 
 ## Folder Structure Explanation
 ### Employee-Directory/
-### ├── public/`                     `# Static assets (icons, images, etc.)
+### ├── public/                      
 ### ├── src/
-### │   ├── components/              # Reusable UI components (Sidebar, Header, EmployeeCard, etc.)
-### │   ├── data/                    # Static employee dataset (employees.json)
-### │   ├── pages/                   # Page-level components (Home.jsx)
-### │   ├── App.jsx                  # Main application wrapper
-### │   ├── main.jsx                 # Entry point for the app
-### │   └── index.css                # TailwindCSS base styles
+### │   ├── components/              
+### │   ├── data/                    
+### │   ├── pages/                   
+### │   ├── App.jsx                  
+### │   ├── main.jsx                 
+### │   └── index.css                
 ### ├── package.json
-### ├── vite.config.js               # Vite + TailwindCSS configuration
-### ├── README.md                    # Project documentation
-### └── NOTES.md                     # Notes on tools and data
+### ├── vite.config.js               
+### ├── README.md                    
+### └── NOTES.md                     
 
+### public  
+Static assets (icons, images, etc.)
+
+### src/components  
+Reusable UI components (Sidebar, Header, EmployeeCard, etc.)
+
+### src/data  
+Static employee dataset (employees.json)
+
+### src/pages  
+Page-level components (Home.jsx)
+
+### src/App.jsx  
+Main application wrapper
+
+### src/main.jsx  
+Entry point for the app
+
+### src/index.css  
+TailwindCSS base styles
+
+### package.json  
+Project dependencies and scripts
+
+### vite.config.js  
+Vite + TailwindCSS configuration
+
+### README.md  
+Project documentation
+
+### NOTES.md  
+Notes on tools and data
 
 
 ## Notes on Architectural & Scalability Decisions
